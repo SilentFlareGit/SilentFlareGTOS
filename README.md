@@ -1,28 +1,58 @@
 # SilentFlareGTOS
 
-Static HTML policy library for the SilentFlare Global Terms of Service.
+Markdown + GitHub Pages policy library for the SilentFlare Global Terms of Service.
 
 ## Structure
 
-- `index.html` — navigation hub for the modular GToS pages.
-- `assets/styles.css` — shared visual style for all pages.
-- `terms/overview.html` — overview and scope.
-- `terms/compliance.html` — Germany and EU compliance.
-- `terms/restricted-regions.html` — restricted countries and regions.
-- `terms/kyc.html` — KYC and verification levels.
-- `terms/acceptable-use.html` — acceptable use policy.
-- `terms/accounts-security.html` — account and credential security.
-- `terms/service-availability.html` — availability, maintenance, and changes.
-- `terms/payments-refunds.html` — payments, taxes, refunds, and chargebacks.
-- `terms/data-privacy.html` — data processing and retention.
-- `terms/enforcement.html` — suspension, termination, and enforcement.
-- `terms/disclaimer.html` — warranty disclaimer and liability limits.
-- `terms/contact.html` — legal, abuse, and compliance contact rules.
+```text
+docs/
+  _config.yml
+  index.md
+  terms/
+    overview.md
+    compliance.md
+    restricted-regions.md
+    kyc.md
+    acceptable-use.md
+    accounts-security.md
+    service-availability.md
+    payments-refunds.md
+    data-privacy.md
+    enforcement.md
+    disclaimer.md
+    contact.md
+```
 
-## Deploy
+## Deploy with GitHub Pages
 
-Deploy directly with GitHub Pages, Cloudflare Pages, Vercel, Netlify, Nginx, Caddy, or any static file server. No build step is required.
+Use GitHub Pages with Jekyll:
 
-## Note
+```text
+Settings -> Pages -> Build and deployment
+Source: Deploy from a branch
+Branch: main
+Folder: /docs
+```
 
-This repository is an operational policy draft. Review it with a qualified legal professional before commercial use.
+After deployment, the site entry is the Pages URL for this repository. Each policy page has its own stable route, for example:
+
+```text
+/terms/overview/
+/terms/restricted-regions/
+/terms/kyc/
+/terms/acceptable-use/
+/terms/data-privacy/
+```
+
+## Editing rules
+
+- Write policy text in Markdown, not handwritten HTML.
+- Keep one policy category per file.
+- Use numbered clauses for terms that may need review or citation.
+- Keep the restricted-region list in `docs/terms/restricted-regions.md` only.
+- Keep KYC levels and verification rules in `docs/terms/kyc.md` only.
+- Update `docs/index.md` when adding, removing, or renaming policy files.
+
+## Legal review notice
+
+This repository is an operational policy draft. It is not legal advice. Review it with a qualified legal professional before commercial use, especially for German law, European Union law, GDPR, consumer protection, sanctions, export control, and hosting-provider compliance.
