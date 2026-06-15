@@ -13,18 +13,18 @@ This site is the public policy library for SilentFlare services. It is written a
 
 ## Read the terms
 
-1. [Overview and Definitions](/terms/overview/)
-2. [Germany and European Union Compliance](/terms/compliance/)
-3. [Restricted Countries and Regions](/terms/restricted-regions/)
-4. [Identity Verification and KYC](/terms/kyc/)
-5. [Acceptable Use Policy](/terms/acceptable-use/)
-6. [Accounts and Security](/terms/accounts-security/)
-7. [Service Availability and Changes](/terms/service-availability/)
-8. [Payments, Taxes, Refunds, and Chargebacks](/terms/payments-refunds/)
-9. [Data Protection, Privacy, and Retention](/terms/data-privacy/)
-10. [Enforcement, Suspension, and Termination](/terms/enforcement/)
-11. [Warranty Disclaimer and Liability Limits](/terms/disclaimer/)
-12. [Legal, Abuse, and Compliance Contact Rules](/terms/contact/)
+1. [Overview and Definitions](terms/overview/)
+2. [Germany and European Union Compliance](terms/compliance/)
+3. [Restricted Countries and Regions](terms/restricted-regions/)
+4. [Identity Verification and KYC](terms/kyc/)
+5. [Acceptable Use Policy](terms/acceptable-use/)
+6. [Accounts and Security](terms/accounts-security/)
+7. [Service Availability and Changes](terms/service-availability/)
+8. [Payments, Taxes, Refunds, and Chargebacks](terms/payments-refunds/)
+9. [Data Protection, Privacy, and Retention](terms/data-privacy/)
+10. [Enforcement, Suspension, and Termination](terms/enforcement/)
+11. [Warranty Disclaimer and Liability Limits](terms/disclaimer/)
+12. [Legal, Abuse, and Compliance Contact Rules](terms/contact/)
 
 ## Binding effect
 
