@@ -1,34 +1,38 @@
 ---
 layout: page
-title: Identity Verification and KYC
+title: Limited Identity Verification and KYC1
 permalink: /terms/kyc/
 ---
 
-# Identity Verification and KYC
+# Limited Identity Verification and KYC1
 
 ## 1. Purpose
 
-1.1 SilentFlare may require identity verification to prevent fraud, abuse, sanctions violations, account resale, payment disputes, unlawful access, and restricted-region circumvention.
+1.1 SilentFlare is a personal blog. It does not normally require identity verification for ordinary reading, casual browsing, RSS reading, or lawful personal use.
 
-1.2 KYC may be required before activation, after registration, before feature access, after suspicious activity, after payment risk, after abuse reports, after a change in account status, or during periodic review.
+1.2 SilentFlare may require limited KYC1 only when reasonably necessary to prevent malicious crawling, automated abuse, spam, scraping at abusive scale, account or comment abuse, ban evasion, restricted-region circumvention, unlawful access, or violation of applicable regional internet rules.
 
-## 2. Verification levels
+1.3 KYC1 is an anti-abuse and regional-compliance control. It is not a commercial customer-onboarding system and does not create any right to access the blog.
 
-2.1 KYC Level 0 means no formal identity verification has been completed. Level 0 users may be denied access to restricted features, paid services, high-risk services, or services accessed from restricted regions.
+## 2. KYC1 only
 
-2.2 KYC Level 1 requires a government-issued identity document and, where required, face verification or liveness verification. Acceptable documents may include passport, national identity card, driving licence, residence permit, or another document accepted by SilentFlare or its verification provider.
+2.1 SilentFlare may use KYC1. SilentFlare will not require KYC2, KYC3, proof of address, source-of-funds review, source-of-wealth review, corporate ownership review, or enhanced due diligence for ordinary personal blog access unless a separate commercial service is later published with separate terms.
 
-2.3 KYC Level 2 requires Level 1 plus proof of address, such as a bank statement, utility bill, residence certificate, tax document, official government letter, or other document accepted by SilentFlare.
+2.2 KYC1 may require one valid government-issued identity document, such as a passport, national identity card, driving licence, residence permit, or another official document accepted by SilentFlare or its verification provider.
 
-2.4 KYC Level 3 requires enhanced due diligence. This may include source-of-funds review, source-of-wealth review, business purpose review, ownership review, corporate documents, tax information, sanctions screening, adverse media review, live interview, manual approval, or additional documents.
+2.3 Where reasonably necessary to prevent impersonation, fake-document abuse, or repeated restricted-region circumvention, KYC1 may include face verification or liveness verification linked to the submitted identity document.
 
-## 3. When KYC is required
+2.4 SilentFlare may also request basic non-sensitive context needed for review, such as the relevant IP address, ASN, country or region, affected URL, user agent, comment identifier, access time, reason for appeal, or explanation of legitimate access.
 
-3.1 KYC Level 1 is mandatory for users connected to restricted countries or regions unless SilentFlare expressly waives it in writing.
+## 3. When KYC1 may be required
 
-3.2 KYC may be required for high-risk payment methods, unusual account behavior, abuse reports, traffic anomalies, chargebacks, use of proxies or VPNs, inconsistent location signals, corporate accounts, reseller activity, high-volume API use, or requests involving sensitive infrastructure.
+3.1 KYC1 may be required when a visitor, commenter, crawler, bot operator, researcher, mirror operator, or other user is connected to a restricted country or region.
 
-3.3 SilentFlare may increase the required KYC level at any time if account risk changes.
+3.2 KYC1 may be required when traffic appears to involve malicious crawling, credential stuffing, spam comments, mass scraping, scraping that ignores rate limits, crawler identity spoofing, proxy abuse, Tor exit-node abuse, data-center proxy abuse, residential proxy abuse, bypassing robots instructions, or repeated access after blocking.
+
+3.3 KYC1 may be required when SilentFlare must verify whether access is lawful under the rules of the user's location, the hosting location, upstream provider rules, German law, European Union law, sanctions rules, or other applicable regional internet regulations.
+
+3.4 KYC1 may be required before an IP address, ASN, domain, crawler, account, comment function, feed access, API endpoint, or contact channel is unblocked or allowlisted.
 
 ## 4. User obligations
 
@@ -36,40 +40,36 @@ permalink: /terms/kyc/
 
 4.2 The user must not submit forged, altered, expired, borrowed, stolen, synthetic, purchased, AI-generated, or otherwise invalid documents.
 
-4.3 The user must not complete verification on behalf of another person unless SilentFlare expressly permits representative verification for a business account.
+4.3 The user must not complete KYC1 for another person, hide the real operator of a crawler or bot, or use another person as a nominee to bypass regional restrictions.
 
-4.4 The user must promptly update information that becomes inaccurate or outdated.
+4.4 The user must not use VPNs, proxies, relays, remote desktops, borrowed accounts, misleading user agents, fake crawler identities, or false documents to defeat KYC1 or restricted-region controls.
 
 ## 5. Refusal, delay, and failure
 
-5.1 SilentFlare may refuse service, delay activation, restrict features, suspend accounts, terminate accounts, or deny refunds where verification is incomplete, inconsistent, fraudulent, high-risk, or not completed within the requested time.
+5.1 SilentFlare may refuse review, deny access, maintain blocks, restrict comments, block feeds, rate-limit traffic, or deny allowlisting if KYC1 is incomplete, inconsistent, fraudulent, high-risk, unnecessary to accept, or not completed within the requested time.
 
-5.2 SilentFlare is not required to disclose detailed risk rules, fraud indicators, sanctions screening logic, provider requirements, or internal review criteria.
+5.2 SilentFlare is not required to disclose detailed anti-abuse rules, crawler detection logic, geolocation rules, sanctions screening logic, provider rules, fraud indicators, or internal review criteria.
 
-5.3 If verification is rejected, SilentFlare may allow resubmission, request additional documents, or permanently refuse service.
+5.3 Passing KYC1 does not guarantee access, unblocking, allowlisting, comment approval, crawler permission, or future access.
 
 ## 6. Data handling
 
-6.1 KYC data may be processed by SilentFlare and by third-party verification, hosting, payment, fraud prevention, compliance, storage, and security providers.
+6.1 KYC1 data may be processed by SilentFlare and, where used, by identity verification, hosting, security, anti-abuse, storage, email, or legal-compliance providers.
 
-6.2 KYC data may include identity documents, face images, liveness data, address documents, device data, IP addresses, payment data, risk scores, screening results, and manual review notes.
+6.2 KYC1 data may include identity document data, face or liveness data where required, IP addresses, device and browser metadata, access logs, user agent strings, risk signals, appeal messages, and manual review notes.
 
-6.3 SilentFlare will retain KYC data for as long as reasonably necessary for verification, fraud prevention, dispute handling, compliance, audit, legal defense, and provider obligations, subject to applicable law.
+6.3 SilentFlare will aim to minimize KYC1 collection and retain KYC1 data only as long as reasonably necessary for abuse prevention, restricted-region compliance, dispute handling, legal compliance, provider obligations, evidence preservation, and legal defense.
+
+6.4 Ordinary visitors should not submit identity documents unless SilentFlare specifically requests KYC1 through an official contact or review channel.
 
 ## 7. Re-verification
 
-7.1 SilentFlare may require re-verification when a document expires, account control changes, payment information changes, location changes, ownership changes, abuse is reported, sanctions lists change, or risk indicators change.
+7.1 SilentFlare may require re-verification if abuse resumes, location signals change, documents appear invalid, a block is appealed again, crawler behavior changes, sanctions or restricted-region rules change, or provider requirements change.
 
-7.2 Failure to complete re-verification may result in suspension or termination.
+7.2 Failure to complete re-verification may result in continued blocking or restriction.
 
-## 8. Business and organization accounts
+## 8. No access guarantee
 
-8.1 Business users may be required to provide legal name, registration number, registered address, director information, beneficial owner information, tax information, proof of authority, corporate documents, and business purpose.
+8.1 KYC1 is a review tool, not an entitlement.
 
-8.2 SilentFlare may require verification of directors, beneficial owners, account operators, or persons with administrative access.
-
-## 9. No guarantee of access
-
-9.1 Passing KYC does not guarantee service activation, continued service, higher limits, or access from a restricted region.
-
-9.2 SilentFlare may still refuse, limit, suspend, or terminate service if legal, sanctions, provider, fraud, abuse, security, or operational risk remains unacceptable.
+8.2 SilentFlare may still refuse, block, rate-limit, restrict, or terminate access if legal, sanctions, provider, privacy, security, crawler-abuse, spam, scraping, regional-compliance, or operational risk remains unacceptable.
