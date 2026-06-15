@@ -1,5 +1,6 @@
-title: SilentFlare Blog GToS
-description: Global Terms of Service and policy library for the SilentFlare personal blog.
+title: SilentFlareGToS
+subtitle: SilentFlare General Terms of Service
+description: General Terms of Service and policy library for the SilentFlare personal blog.
 theme: minima
 markdown: kramdown
 permalink: pretty
