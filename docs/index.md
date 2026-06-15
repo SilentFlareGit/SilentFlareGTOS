@@ -1,10 +1,12 @@
 ---
 layout: page
-title: SilentFlare Blog Terms of Service
+title: SilentFlareGToS
 permalink: /
 ---
 
-# SilentFlare Blog Terms of Service
+# SilentFlareGToS
+
+**SilentFlareGToS** means **SilentFlare General Terms of Service**.
 
 Effective date: 2026-06-15  
 Document status: personal blog policy draft, subject to legal review
@@ -17,7 +19,7 @@ These terms are intended for a personal blog. They are not written as a commerci
 
 1. [Overview and Definitions](terms/overview/)
 2. [Germany and European Union Compliance](terms/compliance/)
-3. [Restricted Countries and Regions](terms/restricted-regions/)
+3. [Controlled Access Policy](terms/restricted-regions/)
 4. [Limited Identity Verification and KYC1](terms/kyc/)
 5. [Acceptable Use Policy](terms/acceptable-use/)
 6. [Accounts, Comments, and Security](terms/accounts-security/)
@@ -30,10 +32,10 @@ These terms are intended for a personal blog. They are not written as a commerci
 
 ## Binding effect
 
-By accessing, reading, commenting on, scraping, indexing, mirroring, contacting, subscribing to, or otherwise using the SilentFlare blog, the user agrees to these terms and referenced policies to the extent permitted by applicable law.
+By accessing, reading, commenting on, scraping, indexing, mirroring, contacting, subscribing to, or otherwise using the SilentFlare blog, the user agrees to the SilentFlareGToS and referenced policies to the extent permitted by applicable law.
 
 If the user does not agree, the user must stop accessing the blog and must not use comment, contact, feed, API, automation, or scraping functions.
 
 ## Legal review notice
 
-This library is an operational policy draft for a personal blog. It is not legal advice. Before relying on it for identity verification, restricted-region blocking, German/EU compliance, GDPR compliance, or commercial activity, SilentFlare should have it reviewed by a qualified lawyer.
+This library is an operational policy draft for a personal blog. It is not legal advice. Before relying on it for identity verification, controlled-access blocking, German/EU compliance, GDPR compliance, or commercial activity, SilentFlare should have it reviewed by a qualified lawyer.
