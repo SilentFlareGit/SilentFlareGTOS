@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}SilentFlareGToS</title>
+  <style>
+    :root{--text:#1f2937;--muted:#667085;--line:#e5e7eb;--link:#0969da;--bg:#fff;--soft:#f8fafc}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    a{color:var(--link);text-decoration:none}a:hover{text-decoration:underline}
+    .page{max-width:880px;margin:0 auto;padding:40px 24px 32px}
+    main{min-height:70vh}h1,h2,h3{line-height:1.25;color:#111827}h1{font-size:2rem;margin:0 0 1rem;border-bottom:1px solid var(--line);padding-bottom:.65rem}h2{font-size:1.35rem;margin-top:2rem;border-bottom:1px solid var(--line);padding-bottom:.35rem}h3{font-size:1.1rem;margin-top:1.4rem}
+    p,li{max-width:78ch}code{background:var(--soft);border:1px solid var(--line);border-radius:6px;padding:.08rem .3rem}hr{border:0;border-top:1px solid var(--line);margin:2rem 0}
+    .term-footer{margin-top:3rem;padding-top:1.25rem;border-top:1px solid var(--line);color:var(--muted);font-size:.94rem}
+    .footer-buttons{display:flex;flex-wrap:wrap;gap:.6rem;margin-bottom:1rem}.footer-buttons a,.footer-buttons button{appearance:none;border:1px solid var(--line);background:var(--soft);color:#111827;border-radius:999px;padding:.48rem .8rem;font:inherit;cursor:pointer}.footer-buttons a:hover,.footer-buttons button:hover{background:#eef2f7;text-decoration:none}
+    .footer-note{margin:.35rem 0}.footer-note strong{color:#111827}
+    @media(max-width:640px){.page{padding:28px 16px}.footer-buttons{display:grid;grid-template-columns:1fr 1fr}h1{font-size:1.7rem}}
+  </style>
+</head>
+<body>
+  <div id="top"></div>
+  <div class="page">
+    <main aria-label="Content">
+      {{ content }}
+    </main>
+    <footer class="term-footer" aria-label="Page footer">
+      <nav class="footer-buttons" aria-label="Utility navigation">
+        <button type="button" onclick="history.length > 1 ? history.back() : location.href='{{ '/' | relative_url }}'">Back</button>
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <a href="{{ '/#read-the-terms' | relative_url }}">All terms</a>
+        <a href="{{ '/terms/contact/' | relative_url }}">Contact</a>
+        <a href="#top">Back to top</a>
+      </nav>
+      <p class="footer-note"><strong>SilentFlareGToS</strong> means <strong>SilentFlare General Terms of Service</strong>.</p>
+      <p class="footer-note">Personal blog policy draft. This page is not legal advice and should be reviewed before formal reliance.</p>
+    </footer>
+  </div>
+</body>
+</html>
