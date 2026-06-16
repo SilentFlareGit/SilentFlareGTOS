@@ -5,7 +5,7 @@ permalink: /
 ---
 
 {% capture gtos_markdown %}
-{% include_relative ../GToS.md %}
+{% include_relative GToS.md %}
 {% endcapture %}
 
 {{ gtos_markdown | markdownify }}
