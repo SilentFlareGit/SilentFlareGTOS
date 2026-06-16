@@ -4,8 +4,6 @@ title: Moderation, Blocking, and Enforcement
 permalink: /terms/enforcement/
 ---
 
-# Moderation, Blocking, and Enforcement
-
 ## 1. Enforcement purpose
 
 1.1 SilentFlare enforces these terms to protect the blog, readers, third parties, infrastructure, providers, legal compliance, privacy, security, and service reputation.
