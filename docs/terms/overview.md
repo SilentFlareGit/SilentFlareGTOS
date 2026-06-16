@@ -4,8 +4,6 @@ title: Overview and Definitions
 permalink: /terms/overview/
 ---
 
-# Overview and Definitions
-
 ## 1. Scope
 
 1.1 **SilentFlareGToS** means **SilentFlare General Terms of Service**.
