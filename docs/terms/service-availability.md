@@ -4,8 +4,6 @@ title: Blog Availability and Changes
 permalink: /terms/service-availability/
 ---
 
-# Blog Availability and Changes
-
 ## 1. Blog nature
 
 1.1 The SilentFlare blog is a personal website and may be experimental, self-hosted, static, partially automated, limited, or dependent on third-party providers.
