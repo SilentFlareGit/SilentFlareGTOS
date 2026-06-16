@@ -4,8 +4,6 @@ title: Legal, Abuse, Privacy, and Contact Rules
 permalink: /terms/contact/
 ---
 
-# Legal, Abuse, Privacy, and Contact Rules
-
 ## 1. Purpose
 
 1.1 This policy explains how users and third parties should contact SilentFlare about blog issues, abuse reports, legal notices, privacy requests, crawler blocks, KYC1 review, security reports, comments, and restricted-region access.
