@@ -4,4 +4,8 @@ title: SilentFlareGToS
 permalink: /
 ---
 
-Test.
+{% capture gtos_markdown %}
+{% include_relative ../GToS.md %}
+{% endcapture %}
+
+{{ gtos_markdown | markdownify }}
