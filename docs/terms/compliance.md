@@ -4,8 +4,6 @@ title: Germany and European Union Compliance
 permalink: /terms/compliance/
 ---
 
-# Germany and European Union Compliance
-
 ## 1. Hosting location and compliance baseline
 
 1.1 The SilentFlare blog may be hosted on servers, networks, DNS, CDN, repository, or infrastructure located in Germany or the European Union.
