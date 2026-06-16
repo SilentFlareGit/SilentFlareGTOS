@@ -4,8 +4,6 @@ title: Accounts, Comments, and Security
 permalink: /terms/accounts-security/
 ---
 
-# Accounts, Comments, and Security
-
 ## 1. Limited account scope
 
 1.1 The SilentFlare blog may not require an account for ordinary reading.
