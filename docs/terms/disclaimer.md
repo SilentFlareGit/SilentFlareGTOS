@@ -4,8 +4,6 @@ title: Disclaimer and Liability Limits
 permalink: /terms/disclaimer/
 ---
 
-# Disclaimer and Liability Limits
-
 ## 1. As-is blog
 
 1.1 The SilentFlare blog is provided on an as-is and as-available basis.
